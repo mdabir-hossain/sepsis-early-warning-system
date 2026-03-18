@@ -1,0 +1,2 @@
+model,calibrator,policy,operating_point_choice,tau,sepsis_detection_rate,nonsepsis_alert_rate,alerts_per_100_patient_hours,lead_time_median
+hgb,isotonic,A_first_crossing_lockout,utility_A_clinical_high_detection,0.0810526315789473,1.0,0.0,1.6401149125097936,55.0

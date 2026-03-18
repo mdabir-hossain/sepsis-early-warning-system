@@ -1,0 +1,14 @@
+{
+  "model_name": "hgb",
+  "calibrator": "isotonic",
+  "policy": "A_first_crossing_lockout",
+  "lockout_hours": 6,
+  "operating_point_choice": "utility_A_clinical_high_detection",
+  "tau": 0.0810526315789473,
+  "metrics": {
+    "sepsis_detection_rate": 1.0,
+    "nonsepsis_alert_rate": 0.0,
+    "alerts_per_100_patient_hours": 1.6401149125097936,
+    "lead_time_median": 55.0
+  }
+}

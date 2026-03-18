@@ -1,0 +1,2 @@
+n_patients,n_rows,median_hours,p90_hours,p95_hours,max_hours
+500,20085,38.0,55.0,60.049999999999955,336

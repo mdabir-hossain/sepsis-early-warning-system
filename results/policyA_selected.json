@@ -1,0 +1,15 @@
+{
+  "policy": "A_first_crossing_lockout",
+  "tau": 0.08578947368421053,
+  "lockout_hours": 6,
+  "guardrails": {
+    "MAX_FALSE_ALERT": 0.1,
+    "MAX_ALERTS_PER_100H": 1.0
+  },
+  "metrics": {
+    "sepsis_detection_rate": 0.8974358974358975,
+    "nonsepsis_alert_rate": 0.0,
+    "alerts_per_100_patient_hours": 0.8670671193523114,
+    "lead_time_median": 40.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preset": {
+    "name": "A_clinical_high_detection",
+    "w_det": 4.0,
+    "w_lead": 1.5,
+    "w_burden": 1.0,
+    "w_false": 2.0
+  },
+  "policy": "A_first_crossing_lockout",
+  "lockout_hours": 6,
+  "tau_u": 0.0810526315789473,
+  "metrics": {
+    "sepsis_detection_rate": 1.0,
+    "nonsepsis_alert_rate": 0.0,
+    "alerts_per_100_patient_hours": 1.6401149125097936,
+    "lead_time_median": 55.0,
+    "utility": 4.203329034996083
+  },
+  "comparison_tau_star": {
+    "tau_star": 0.0857894736842105,
+    "metrics": {
+      "sepsis_detection_rate": 0.8974358974358975,
+      "nonsepsis_alert_rate": 0.0,
+      "alerts_per_100_patient_hours": 0.8670671193523114,
+      "lead_time_median": 40.0
+    }
+  }
+}
